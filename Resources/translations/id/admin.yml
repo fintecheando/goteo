@@ -1,2 +1,7 @@
 ---
 admin-action: 'Pengaturan tindakan'
+admin-NO: 'TIDAK'
+admin-YES: YA
+admin-account-amount: 'Jumlah Donasi'
+admin-account-change-user: 'Ubah Pengguna'
+admin-account-change-user-confirm: 'Apakah Anda yakin Anda ingin mengubah pengguna kontribusi? Pengguna baru akan menjadi:'
