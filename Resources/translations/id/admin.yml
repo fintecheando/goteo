@@ -45,3 +45,9 @@ admin-all: Semua
 admin-global: Keseluruhan
 admin-back: Coba lagi
 admin-back-detail: 'Kembali ke Rincian'
+admin-back-list: 'Kembali ke Portal'
+admin-contents: 'Teks dan terjemahan'
+admin-empty-list: 'Hasil pencarian tidak ditemukan'
+admin-activity: Aktifitas
+admin-communications: Komunikasi
+admin-blog-add: Membuat posting baru
