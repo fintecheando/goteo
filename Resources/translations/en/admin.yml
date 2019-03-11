@@ -38,6 +38,8 @@ admin-account-switch-pool: 'Commute the pool'
 admin-account-switch-pool-confirm: "This only applies when the project fails, it will not generate or take away money from the wallet.\nContinue?"
 admin-account-switch-pool-fail: 'The status of this contribution pool can not be changed'
 admin-account-transaction: 'Tracking codes'
+admin-account-user-changed-error: 'The username [%ID%] could not be changed to [%NAME%]!'
+admin-account-user-changed-successfully: 'The username [%ID%] has changed to [%NAME%]'
 admin-address: Address
 admin-all: All
 admin-global: Global
@@ -51,6 +53,7 @@ admin-communications: Comunications
 admin-home: Dashboard
 admin-items: entries
 admin-mailing-back-to-list: 'Back to messages'
+admin-mailing-communicating-with: 'We tried to communicate with %DESC%'
 admin-mailing-created: 'Created on'
 admin-mailing-new-massive: 'A new mass mailing was created to %TOTAL% users'
 admin-mailing-status: 'Automatic delivery status'
