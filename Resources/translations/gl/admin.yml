@@ -93,6 +93,7 @@ admin-view-user-invests: 'Tódalas achegas'
 admin-user-hidden: 'Privado (oculto)'
 admin-user-active: 'Conta activa'
 admin-user-create-invest: 'Crear achega'
+admin-view-user-mailing: 'Tódolos envíos'
 admin-no-project: 'Sen proxecto'
 admin-title-id: Id
 admin-title-name: Nome
@@ -103,6 +104,9 @@ admin-title-fullname: Nome
 admin-title-email: Correo electrónico
 admin-title-password: Contrasinal
 admin-title-avatar: Avatar
+admin-title-roles: Roles
+admin-title-amount: Investido
+admin-title-icon: Icona
 admin-title-info: Info
 admin-title-image: Imaxe
 admin-title-title: Título
