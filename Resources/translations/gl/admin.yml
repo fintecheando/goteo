@@ -53,9 +53,20 @@ admin-remove-filters: 'Eliminar filtros'
 admin-remove-entry: 'Eliminar entrada'
 admin-remove-entry-confirm: 'Tes a certeza de querer eliminar esta entrada? Esta operación non se pode desfacer!'
 admin-remove-entry-ok: 'Entrada eliminada correctamente'
+admin-add-entry-ok: 'Nova entrada creada correctamente'
+admin-edit-entry-ok: 'Entrada editada correctamente'
 admin-services: Servizos
+admin-sponsors: Servizos
 admin-slug-seo-help: 'Este campo é importante para SEO. Editar só se hai unha boa razón.'
 admin-others: Outros
+admin-summary: Resumo
+admin-origins: Análise de visitas
+admin-status: Estado
+admin-text-type-html: HTML
+admin-text-type-md: Markdown
+admin-user: Usuario
+admin-users: Usuarios
+admin-users-add: Crear novo usuario
 admin-channels: Canles
 admin-yes: Si
 admin-project-to-publish: 'Publicar'
