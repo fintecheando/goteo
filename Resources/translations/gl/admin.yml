@@ -94,6 +94,10 @@ admin-user-hidden: 'Privado (oculto)'
 admin-user-active: 'Conta activa'
 admin-user-create-invest: 'Crear achega'
 admin-view-user-mailing: 'Tódolos envíos'
+admin-role-change-forbidden: 'Non tes permiso para xestionar o rol %ROLE% neste usuario'
+admin-users-global-search: 'Id, nome, correo electrónico ou proxecto'
+admin-blog-global-search: 'Id, título, subtítulo ou texto'
+admin-blog-stories-search: 'Id, título, texto ou proxecto'
 admin-no-project: 'Sen proxecto'
 admin-title-id: Id
 admin-title-name: Nome
@@ -118,15 +122,30 @@ admin-title-langs: Traducións
 admin-title-actions: Accións
 admin-title-tags: Etiquetas
 admin-title-deleted: Eliminado
+admin-title-social_commitment: Compromiso social
+admin-title-footprints: 'Pegadas'
+admin-title-categories: 'Categorías'
+admin-title-social_commitments: 'Compromisos sociais'
+admin-title-order: Ordenar
 admin-aggregate-timeline: 'Cronoloxía'
 admin-aggregate-invests: 'Total de achegas'
 admin-aggregate-invests-average: 'Media de achegas'
 admin-stats-invest-totals: 'Achegas e comisións'
 admin-stats-project-totals: 'Estado dos proxectos'
+admin-stats-fees: 'Comisión plataforma'
+admin-stats-citizens-part: 'Parte Cidadá'
+admin-stats-to_projects: 'A proxectos'
+admin-stats-to_wallet: 'Ao portamoedas'
+admin-stats-to_fee: 'A comisións'
+admin-stats-to_fee-percent: 'Comisión efectiva'
+admin-stats-in_wallet: 'No portamoedas'
 admin-losts: Perdas
 admin-raised: Recadado
 admin-active: Cobrado
 admin-refunded: Devolto
+admin-commissions: Comisión
+admin-fees: Comisión plataforma
+admin-user-fee: Comisión cidadá
 admin-vat: IVE
 admin-diff: Diferenza
 admin-the_day: O día
@@ -156,6 +175,25 @@ admin-projects-created-month: 'Creados este mes'
 admin-projects-created-last_month: 'Creados o mes pasado'
 admin-projects-created-year: 'Creados este ano'
 admin-projects-created-last_year: 'Creados o ano pasado'
+admin-projects-negotiating-today: 'En negociación hoxe'
+admin-projects-negotiating-yesterday: 'En negociación onte'
+admin-projects-negotiating-week: 'En negociación esta semana'
+admin-projects-negotiating-last_week: 'En negociación a semana pasada'
+admin-projects-negotiating-month: 'En negociación este mes'
+admin-projects-rejected-month: 'Descartados este mes'
+admin-projects-rejected-year: 'Descartados este ano'
+admin-projects-rejected-last_year: 'Descartados o ano pasado'
+admin-projects-review-today: 'En revisión hoxe'
+admin-projects-review-yesterday: 'En revisión onte'
+admin-projects-review-week: 'En revisión esta semana'
+admin-projects-review-last_week: 'En revisión a semana pasada'
+admin-projects-review-month: 'En revisión este mes'
+admin-projects-review-last_month: 'En revisión o mes pasado'
+admin-projects-review-year: 'En revisión este ano'
+admin-projects-review-last_year: 'En revisión o ano pasado'
+admin-invest-raised-amount-today: 'Recadado hoxe'
+admin-invest-raised-total-today: 'Doazóns hoxe'
+admin-invest-raised-amount-yesterday: 'Recadado onte'
 admin-invest-raised-total-yesterday: 'Doazóns onte'
 admin-invest-raised-amount-week: 'Recadado esta semana'
 admin-invest-raised-amount-last_week: 'Recadado a semana pasada'
@@ -169,4 +207,10 @@ admin-invest-raised-amount-year: 'Recadado este ano'
 admin-invest-raised-total-year: 'Recadado este ano'
 admin-invest-raised-amount-last_year: 'Recadado o ano pasado'
 admin-invest-raised-total-last_year: 'Doazóns do ano pasado'
+admin-invest-commissions-today: 'Comisión banco hoxe'
+admin-invest-commissions-yesterday: 'Comisión banco onte'
+admin-invest-commissions-week: 'Comisión banco esta semana'
+admin-invest-commissions-last_week: 'Comisión banco a semana pasada'
+admin-invest-commissions-month: 'Comisión banco este mes'
+admin-invest-commissions-last_month: 'Comisión banco o mes pasado'
 admin-stats-projects-project-desc: 'Achegas ao proxecto'
