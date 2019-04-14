@@ -64,11 +64,17 @@ admin-origins: Análise de visitas
 admin-status: Estado
 admin-text-type-html: HTML
 admin-text-type-md: Markdown
+admin-text-type-plain: 'Texto simple'
 admin-user: Usuario
 admin-users: Usuarios
 admin-users-add: Crear novo usuario
 admin-blog-not-public: 'Esta publicación aínda non é pública'
 admin-stories: Historias de usuarios no Goteo
+admin-stories-add: Crear unha nova historia
+admin-stories-edit: Editando a historia %s
+admin-category-add: Crear unha nova categoría
+admin-category-edit: Editando a categoría %s
+admin-socialcommitment-add: Crear un novo compromiso social
 admin-channels: Canles
 admin-yes: Si
 admin-project-to-publish: 'Publicar'
@@ -82,7 +88,9 @@ admin-edit-name: 'Mudar o nome'
 admin-edit-roles: 'Mudar os roles do usuario'
 admin-send-email: 'Enviar correo electrónico'
 admin-show-roles-info: 'Que pode facer cada rol?'
+admin-view-user-projects: 'Tódolos proxectos'
 admin-view-user-invests: 'Tódalas achegas'
+admin-user-hidden: 'Privado (oculto)'
 admin-user-active: 'Conta activa'
 admin-user-create-invest: 'Crear achega'
 admin-no-project: 'Sen proxecto'
