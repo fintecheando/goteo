@@ -1,6 +1,8 @@
 ---
+api-key-documentation: 'Ver a documentación da API'
 api-key-user: 'Usuario'
 contract-data_title: 'Datos do contrato'
+dashboard-certificates-confirm: 'Confirmar datos'
 dashboard-certificates-confirmed: Confirmado
 dashboard-certificates-details: 'Ver detalles'
 dashboard-certificates-download: 'Confirmar e descargar'
@@ -14,6 +16,7 @@ dashboard-chart-days: 'QUEDAN %s DÍAS'
 dashboard-chart-invested: 'FINANCIAMENTO ACADADA'
 dashboard-chart-investors: COFINANCIADORES
 dashboard-chart-no-invested: 'Sen achegas.'
+dashboard-chart-optimum: óptimo
 dashboard-embed_code_investor: 'CÓDIGO COA IMAXE DO COFINANCEIRO'
 dashboard-header-main: 'O meu panel'
 dashboard-investors-mail-fail: 'Erro ó enviar a mensaxe a %s'
@@ -28,18 +31,22 @@ dashboard-menu-activity-summary: Resumo
 dashboard-menu-activity-wall: 'O meu muro'
 dashboard-menu-admin_board: Administración
 dashboard-menu-pool: 'O meu portamoedas'
+dashboard-menu-pool-available: Saldo
 dashboard-menu-pool-conditions: Condicións
 dashboard-menu-profile: 'O meu perfil'
+dashboard-menu-profile-access: 'Datos de acceso'
 dashboard-menu-profile-location: Xeolocalización
 dashboard-menu-profile-personal: 'Datos persoais'
 dashboard-menu-profile-preferences: 'Preferencias'
 dashboard-menu-profile-profile: 'Editar perfil'
 dashboard-menu-profile-public: 'Perfil público'
 dashboard-menu-projects: 'Os meus proxectos'
+dashboard-menu-projects-analytics: Estatística
 dashboard-menu-projects-commons: Retornos
 dashboard-menu-projects-contract: Contrato
 dashboard-menu-projects-social-commitment: 'Compromiso social'
 dashboard-menu-projects-messegers: Participates
+dashboard-menu-projects-recipients: destinatarios
 dashboard-menu-projects-preview: 'Páxina pública'
 dashboard-menu-projects-rewards: Cofinanceiros
 dashboard-menu-projects-summary: Resumo
@@ -66,6 +73,8 @@ dashboard-project-updates-noblog: 'Non se atopou ningún blog para este proxecto
 dashboard-project-updates-nopost: 'Non se atopou a entrada'
 dashboard-project-updates-postcorrupt: 'A entrada está corrupta, contáctenos'
 dashboard-project-updates-saved: 'A entrada actualizouse correctamente'
+dashboard-rewards-address: 'Enderezo de Entrega:'
+dashboard-rewards-all_filter: Todas
 dashboard-rewards-amount_group: 'Aportacións de'
 dashboard-rewards-amount_order: 'Polo importe'
 dashboard-rewards-choosen: 'Recompensas agardadas:'
@@ -123,9 +132,11 @@ user-preferences-updates: 'Bloquear notificacións de novidades sobre os proxect
 user-save-fail: 'Houbo algún problema ó gardar os datos'
 dashboard-add-new-share-material: 'Novo material'
 dashboard-edit-share-material-url: 'Editar URL'
+dashboard-modal-placeholder-edit-url: 'Url'
 dashboard-new-material-form-material: 'Material'
 dashboard-new-material-form-description: 'Descrición'
 dashboard-new-material-form-url: 'URL'
+dashboard-new-material-form-type: 'Tipo de material'
 dashboard-menu-projects-shared-materials: 'Materiais'
 project-no-share-material: 'Sen materiais compartidos polo proxecto'
 dashboard-project-default-image: 'Imaxe predefinida'
