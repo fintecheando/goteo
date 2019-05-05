@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f4e7a2d2bfb0e9d6107013cf80604579",
-    "content-hash": "d88721e06d98b36979777dff289db098",
+    "hash": "4564caca0bf99417f558c4386000e3cd",
+    "content-hash": "b7b2367846a9d00b5c841d5bc72b2f9e",
     "packages": [
         {
             "name": "aura/html",
@@ -4774,39 +4774,41 @@
         },
         {
             "name": "symfony/form",
-            "version": "v2.8.0",
+            "version": "v2.8.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/form.git",
-                "reference": "e183d1ab59692a479e7e085223281b92a0b9e1ae"
+                "reference": "74382a47aa97496d181fbb598822fdfb9e1744e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/form/zipball/e183d1ab59692a479e7e085223281b92a0b9e1ae",
-                "reference": "e183d1ab59692a479e7e085223281b92a0b9e1ae",
+                "url": "https://api.github.com/repos/symfony/form/zipball/74382a47aa97496d181fbb598822fdfb9e1744e4",
+                "reference": "74382a47aa97496d181fbb598822fdfb9e1744e4",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9",
                 "symfony/event-dispatcher": "~2.1|~3.0.0",
-                "symfony/intl": "~2.4|~3.0.0",
+                "symfony/intl": "~2.7.25|^2.8.18|~3.2.5",
                 "symfony/options-resolver": "~2.6",
+                "symfony/polyfill-ctype": "~1.8",
                 "symfony/polyfill-mbstring": "~1.0",
                 "symfony/property-access": "~2.3|~3.0.0"
             },
             "conflict": {
+                "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0",
                 "symfony/doctrine-bridge": "<2.7",
                 "symfony/framework-bundle": "<2.7",
                 "symfony/twig-bridge": "<2.7"
             },
             "require-dev": {
                 "doctrine/collections": "~1.0",
-                "symfony/dependency-injection": "~2.3|~3.0.0",
+                "symfony/dependency-injection": "~2.7|~3.0.0",
                 "symfony/http-foundation": "~2.2|~3.0.0",
                 "symfony/http-kernel": "~2.4|~3.0.0",
-                "symfony/security-csrf": "~2.4|~3.0.0",
-                "symfony/translation": "~2.0,>=2.0.5|~3.0.0",
-                "symfony/validator": "~2.8|~3.0.0"
+                "symfony/security-csrf": "^2.8.31|^3.3.13",
+                "symfony/translation": "^2.0.5|~3.0.0",
+                "symfony/validator": "^2.8.18|~3.2.5"
             },
             "suggest": {
                 "symfony/framework-bundle": "For templating with PHP.",
@@ -4844,63 +4846,68 @@
             ],
             "description": "Symfony Form Component",
             "homepage": "https://symfony.com",
-            "time": "2015-11-30 16:17:29"
+            "time": "2018-12-06 11:12:46"
         },
         {
             "name": "symfony/framework-bundle",
-            "version": "v2.8.0",
+            "version": "v2.8.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/framework-bundle.git",
-                "reference": "23e1d38900ca38bfe4d386ef1c934c21d22b8ff8"
+                "reference": "07b6056e3a84861fa8a54c33f70b189cf18a1aad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/framework-bundle/zipball/23e1d38900ca38bfe4d386ef1c934c21d22b8ff8",
-                "reference": "23e1d38900ca38bfe4d386ef1c934c21d22b8ff8",
+                "url": "https://api.github.com/repos/symfony/framework-bundle/zipball/07b6056e3a84861fa8a54c33f70b189cf18a1aad",
+                "reference": "07b6056e3a84861fa8a54c33f70b189cf18a1aad",
                 "shasum": ""
             },
             "require": {
                 "doctrine/annotations": "~1.0",
                 "doctrine/cache": "~1.0",
+                "ext-xml": "*",
                 "php": ">=5.3.9",
                 "symfony/asset": "~2.7|~3.0.0",
                 "symfony/class-loader": "~2.1|~3.0.0",
                 "symfony/config": "~2.8",
-                "symfony/dependency-injection": "~2.8",
+                "symfony/dependency-injection": "~2.8.41",
                 "symfony/event-dispatcher": "~2.8|~3.0.0",
                 "symfony/filesystem": "~2.3|~3.0.0",
-                "symfony/http-foundation": "~2.4.9|~2.5,>=2.5.4|~3.0.0",
-                "symfony/http-kernel": "~2.8",
+                "symfony/finder": "^2.0.5|~3.0.0",
+                "symfony/http-foundation": "~2.7.36|^2.8.29",
+                "symfony/http-kernel": "^2.8.22",
                 "symfony/polyfill-mbstring": "~1.0",
-                "symfony/routing": "~2.8|~3.0.0",
-                "symfony/security-core": "~2.6|~3.0.0",
-                "symfony/security-csrf": "~2.6|~3.0.0",
+                "symfony/routing": "^2.8.17",
+                "symfony/security-core": "^2.8.41|^3.3.17",
+                "symfony/security-csrf": "^2.8.31|^3.3.13",
                 "symfony/stopwatch": "~2.3|~3.0.0",
-                "symfony/templating": "~2.1|~3.0.0",
+                "symfony/templating": "~2.7|~3.0.0",
                 "symfony/translation": "~2.8"
+            },
+            "conflict": {
+                "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0"
             },
             "require-dev": {
                 "phpdocumentor/reflection": "^1.0.7",
+                "sensio/framework-extra-bundle": "^3.0.2",
                 "symfony/browser-kit": "~2.4|~3.0.0",
-                "symfony/console": "~2.8|~3.0.0",
-                "symfony/css-selector": "~2.0,>=2.0.5|~3.0.0",
-                "symfony/dom-crawler": "~2.0,>=2.0.5|~3.0.0",
+                "symfony/console": "~2.8.19|~3.2.7",
+                "symfony/css-selector": "^2.0.5|~3.0.0",
+                "symfony/dom-crawler": "^2.0.5|~3.0.0",
                 "symfony/expression-language": "~2.6|~3.0.0",
-                "symfony/finder": "~2.0,>=2.0.5|~3.0.0",
-                "symfony/form": "~2.8",
+                "symfony/form": "^2.8.19",
                 "symfony/polyfill-intl-icu": "~1.0",
-                "symfony/process": "~2.0,>=2.0.5|~3.0.0",
+                "symfony/process": "^2.0.5|~3.0.0",
                 "symfony/property-info": "~2.8|~3.0.0",
-                "symfony/security": "~2.6|~3.0.0",
                 "symfony/validator": "~2.5|~3.0.0",
-                "symfony/yaml": "~2.0,>=2.0.5|~3.0.0"
+                "symfony/yaml": "^2.0.5|~3.0.0",
+                "twig/twig": "~1.34|~2.4"
             },
             "suggest": {
                 "symfony/console": "For using the console commands",
-                "symfony/finder": "For using the translation loader and cache warmer",
                 "symfony/form": "For using forms",
-                "symfony/property-info": "For using the property_info_extractor service",
+                "symfony/process": "For using the server:run, server:start, server:stop, and server:status commands",
+                "symfony/property-info": "For using the property_info service",
                 "symfony/serializer": "For using the serializer service",
                 "symfony/validator": "For using validation",
                 "symfony/yaml": "For using the debug:config and lint:yaml commands"
@@ -4935,7 +4942,7 @@
             ],
             "description": "Symfony FrameworkBundle",
             "homepage": "https://symfony.com",
-            "time": "2015-11-26 16:44:52"
+            "time": "2019-04-16 10:01:35"
         },
         {
             "name": "symfony/http-foundation",
@@ -5078,16 +5085,16 @@
         },
         {
             "name": "symfony/intl",
-            "version": "v3.0.9",
+            "version": "v3.2.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/intl.git",
-                "reference": "d360e43fe5a17a75983a473c3acafaf45fd25cd6"
+                "reference": "3fd98dde8e7d1c34c974d65b09e9c32abe88dafe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/intl/zipball/d360e43fe5a17a75983a473c3acafaf45fd25cd6",
-                "reference": "d360e43fe5a17a75983a473c3acafaf45fd25cd6",
+                "url": "https://api.github.com/repos/symfony/intl/zipball/3fd98dde8e7d1c34c974d65b09e9c32abe88dafe",
+                "reference": "3fd98dde8e7d1c34c974d65b09e9c32abe88dafe",
                 "shasum": ""
             },
             "require": {
@@ -5103,7 +5110,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -5149,7 +5156,7 @@
                 "l10n",
                 "localization"
             ],
-            "time": "2016-07-30 07:22:48"
+            "time": "2017-11-16 17:55:54"
         },
         {
             "name": "symfony/options-resolver",
@@ -6048,64 +6055,6 @@
             "time": "2018-12-13 16:51:15"
         },
         {
-            "name": "symfony/security-csrf",
-            "version": "v2.8.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/security-csrf.git",
-                "reference": "28b6f357877348230146b4e7c872fafb1eef73cd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security-csrf/zipball/28b6f357877348230146b4e7c872fafb1eef73cd",
-                "reference": "28b6f357877348230146b4e7c872fafb1eef73cd",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.9",
-                "symfony/polyfill-php56": "~1.0",
-                "symfony/polyfill-php70": "~1.0",
-                "symfony/security-core": "~2.4|~3.0.0"
-            },
-            "require-dev": {
-                "symfony/http-foundation": "~2.1|~3.0.0"
-            },
-            "suggest": {
-                "symfony/http-foundation": "For using the class SessionTokenStorage."
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.8-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\Security\\Csrf\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony Security Component - CSRF Library",
-            "homepage": "https://symfony.com",
-            "time": "2015-11-18 13:45:00"
-        },
-        {
             "name": "symfony/stopwatch",
             "version": "v2.8.50",
             "source": {
@@ -6156,26 +6105,27 @@
         },
         {
             "name": "symfony/templating",
-            "version": "v2.8.0",
+            "version": "v2.8.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/templating.git",
-                "reference": "d4b3ae6d9045b2f1e4904ae0ba6946afb493d637"
+                "reference": "7e64705b32855ebce87eff8cc5fbe6bf240c8e44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/templating/zipball/d4b3ae6d9045b2f1e4904ae0ba6946afb493d637",
-                "reference": "d4b3ae6d9045b2f1e4904ae0ba6946afb493d637",
+                "url": "https://api.github.com/repos/symfony/templating/zipball/7e64705b32855ebce87eff8cc5fbe6bf240c8e44",
+                "reference": "7e64705b32855ebce87eff8cc5fbe6bf240c8e44",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9"
+                "php": ">=5.3.9",
+                "symfony/polyfill-ctype": "~1.8"
             },
             "require-dev": {
                 "psr/log": "~1.0"
             },
             "suggest": {
-                "psr/log": "For using debug logging in loaders"
+                "psr/log-implementation": "For using debug logging in loaders"
             },
             "type": "library",
             "extra": {
@@ -6207,7 +6157,7 @@
             ],
             "description": "Symfony Templating Component",
             "homepage": "https://symfony.com",
-            "time": "2015-11-18 13:45:00"
+            "time": "2018-11-20 15:55:20"
         },
         {
             "name": "symfony/translation",
@@ -6275,32 +6225,34 @@
         },
         {
             "name": "symfony/validator",
-            "version": "v2.8.0",
+            "version": "v2.8.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/validator.git",
-                "reference": "8c42b96f5b23f0642c1a518addafcef8077154a2"
+                "reference": "d5d2090bba3139d8ddb79959fbf516e87238fe3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/validator/zipball/8c42b96f5b23f0642c1a518addafcef8077154a2",
-                "reference": "8c42b96f5b23f0642c1a518addafcef8077154a2",
+                "url": "https://api.github.com/repos/symfony/validator/zipball/d5d2090bba3139d8ddb79959fbf516e87238fe3a",
+                "reference": "d5d2090bba3139d8ddb79959fbf516e87238fe3a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9",
+                "symfony/polyfill-ctype": "~1.8",
+                "symfony/polyfill-mbstring": "~1.0",
                 "symfony/translation": "~2.4|~3.0.0"
             },
             "require-dev": {
                 "doctrine/annotations": "~1.0",
                 "doctrine/cache": "~1.0",
-                "egulias/email-validator": "~1.2,>=1.2.1",
+                "egulias/email-validator": "^1.2.1",
                 "symfony/config": "~2.2|~3.0.0",
                 "symfony/expression-language": "~2.4|~3.0.0",
-                "symfony/http-foundation": "~2.1|~3.0.0",
-                "symfony/intl": "~2.4|~3.0.0",
+                "symfony/http-foundation": "~2.3|~3.0.0",
+                "symfony/intl": "~2.7.25|^2.8.18|~3.2.5",
                 "symfony/property-access": "~2.3|~3.0.0",
-                "symfony/yaml": "~2.0,>=2.0.5|~3.0.0"
+                "symfony/yaml": "^2.0.5|~3.0.0"
             },
             "suggest": {
                 "doctrine/annotations": "For using the annotation mapping. You will also need doctrine/cache.",
@@ -6343,7 +6295,7 @@
             ],
             "description": "Symfony Validator Component",
             "homepage": "https://symfony.com",
-            "time": "2015-11-20 14:39:26"
+            "time": "2018-11-14 14:06:48"
         },
         {
             "name": "tpyo/amazon-s3-php-class",
