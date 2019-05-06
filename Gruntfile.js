@@ -16,7 +16,7 @@ GOTEO = {
     src: 'src',
     dist: 'dist',
     localHost: '0.0.0.0',
-    localPort:443,
+    localPort:8081,
     livePort:35729,
 
     // to override this parameter, simply copy:
