@@ -49,6 +49,10 @@ db:
     username: goteo     # Database user for the goteo database
     password: password  # Password for the goteo database
 
+# HTML Metas
+meta:
+    title:       "Co-Capital Zone"       # Html default <title>
+
 # Mail transport
 mail:
     # receiving emails

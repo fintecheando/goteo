@@ -9,7 +9,7 @@
                 Financiamiento justo de Proyectos Productivos
                 </div>
                 <div class="description">
-                    CoBusiness, Tu Broker Financiero.<br>
+                    Co-Capital Zone, Tu Broker Financiero.<br>
                 </div>
             </div>
             <div class="col-sm-4 col-md-3 col-md-offset-1 col-button">
