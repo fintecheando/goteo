@@ -24,7 +24,6 @@
 /var/php/sess_*
 
 
-/config/*
 !/config/README.md
 !/config/demo-settings.yml
 !/config/vagrant-settings.yml
