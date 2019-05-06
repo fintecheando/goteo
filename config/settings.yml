@@ -14,7 +14,7 @@ lang: es
 
 # url
 url:
-    main: //https://agile-earth-48243.herokuapp.com
+    main: //agile-earth-48243.herokuapp.com:443
 
 plugins:
     goteo-dev:
