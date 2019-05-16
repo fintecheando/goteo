@@ -21,20 +21,20 @@ use Goteo\Library\Converter;
 
 class Currency {
 
-    protected static $default_currency = 'EUR';
+    protected static $default_currency = 'MXP';
     protected static $converter;
 
     static public $currencies = array(
 
         'EUR' => array(
-            'id' => 'EUR',
-            'name' => 'Euro',
-            'symbol' => '€',
-            'html' => '€', // legacy var
-            'thousands' => '.',
-            'thou' => '.', // Legacy var
-            'decimal'  => ',',
-            'dec'  => ',', // legacy var
+            'id' => 'MXN',
+            'name' => 'Pesos',
+            'symbol' => '$',
+            'html' => '$' // legacy var
+            'thousands' => ',',
+            'thou' => ',', // Legacy var
+            'decimal'  => '.',
+            'dec'  => '.', // legacy var
             'active' => true
         )
 
