@@ -38,7 +38,7 @@ class Lang {
                     'short' => 'ES',
                     'public' => true,
                     'fallback' => 'en',
-                    'locale' => 'es_ES'),
+                    'locale' => 'es_MX'),
     );
 
     static function factory($lang = null) {
